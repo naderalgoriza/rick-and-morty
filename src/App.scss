@@ -1,4 +1,3 @@
-// @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 @import "src/css/variables.scss";
 @import "src/css/globals.scss";
 @import "src/css/fonts.scss";
@@ -6,13 +5,7 @@
 
 body {
   background-color: $primary1;
-  // width: 100vw;
-  // height: 100vh;
   position: relative;
-}
-
-.App {
-  // font-family: 'Creepster', cursive;
 }
 
 a {
