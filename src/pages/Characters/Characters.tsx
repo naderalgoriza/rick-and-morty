@@ -43,7 +43,7 @@ const Characters: FC = () => {
 
   return (
     <div>
-      <h1>Characters</h1>
+      <h1>All Characters</h1>
 
       <div className="cards-container">
         {!loading && !error
