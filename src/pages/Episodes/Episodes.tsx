@@ -43,9 +43,9 @@ const Episodes: FC = () => {
 
   return (
     <div>
-      <h1>All Episodes</h1>
+      <h1 className="text-primary-5">All Episodes</h1>
 
-      <div className="cards-container">
+      <div className="cards-container text-primary-4">
         {!loading && !error
           ? data?.episodes.results.map((episode) => (
               <EpisodeCard key={episode.id} episode={episode} />

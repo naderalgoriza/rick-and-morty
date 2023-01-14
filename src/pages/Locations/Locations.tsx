@@ -43,9 +43,9 @@ const Locations: FC = () => {
 
   return (
     <div>
-      <h1>All Locations</h1>
+      <h1 className="text-primary-5">All Locations</h1>
 
-      <div className="cards-container">
+      <div className="cards-container text-primary-4">
         {!loading && !error
           ? data?.locations.results.map((location) => (
               <LocationCard key={location.id} location={location} />
