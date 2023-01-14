@@ -1,0 +1,25 @@
+@import "src/css/variables.scss";
+
+.spinner-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+
+  .spinner-wrapper {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
+
+  .spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    .ant-spin-dot-item {
+      background-color: $primary3;
+    }
+  }
+}

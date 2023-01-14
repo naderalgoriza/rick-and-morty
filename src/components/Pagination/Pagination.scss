@@ -1,0 +1,18 @@
+@import "src/css/variables.scss";
+
+.ant-pagination {
+  
+  .ant-pagination-item {
+    a {
+      color: $primary3;
+    }
+  }
+
+  .ant-pagination-item-active {
+    a {
+      color: $primary5;
+    }
+
+    border-color: $primary5;
+  }
+}

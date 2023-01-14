@@ -1,0 +1,56 @@
+@import "./variables.scss";
+
+$color-values: (
+  primary-1: $primary1,
+  primary-2: $primary2,
+  primary-3: $primary3,
+  primary-4: $primary4,
+  primary-5: $primary5,
+);
+
+$border-radius-values: (
+  4: 4px,
+  6: 6px,
+  8: 8px,
+  10: 10px,
+);
+
+@each $name, $value in $color-values {
+  .bg-#{$name} {
+    background-color: $value;
+  }
+
+  .text-#{$name} {
+    color: $value;
+  }
+}
+
+@each $name, $value in $border-radius-values {
+  .border-radius-#{$name} {
+    border-radius: $value;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.pointer {
+  cursor: pointer;
+}
